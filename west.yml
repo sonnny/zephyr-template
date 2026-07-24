@@ -8,7 +8,7 @@ manifest:
   projects:
     - name: zephyr
       # indicate the zephyr version we will use
-      revision: v4.2.0
+      revision: v4.4.0
       # point to official github repo
       url: https://github.com/zephyrproject-rtos/zephyr
       # place zephyr source code into a directory called deps
@@ -17,4 +17,4 @@ manifest:
         name-allowlist:
           # placehere all the packages you want to import
           - cmsis_6
-          - hal_nordic
+          - hal_stm32
