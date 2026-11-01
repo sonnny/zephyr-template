@@ -7,6 +7,6 @@ quick start:<br/>
   west init -m https://github.com/sonnny/zephyr-template.git</br>
   west update<br/>
 <br/>
-to build:<br/
+to build:<br/>
   west build -p -b rpi_pico app<br/>
 
