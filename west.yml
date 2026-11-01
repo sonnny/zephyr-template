@@ -17,4 +17,5 @@ manifest:
         name-allowlist:
           # placehere all the packages you want to import
           - cmsis_6
-          - hal_stm32
+          - hal_rpi_pico
+          - cmsis
